@@ -1,0 +1,43 @@
+[project]
+name = "nordvpn-connect"
+version = "0.1.0"
+description = "A Python library to connect to NordVPN, works on Windows and Linux"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "psutil>=7.0.0",
+    "requests>=2.32.0",
+    "loguru>=0.7.0",
+]
+authors = [
+    {name = "Sorasful", email = ""},
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet",
+    "Topic :: Security",
+    "Topic :: System :: Networking",
+]
+
+[project.urls]
+Homepage = "https://github.com/sorasful/nordvpn-connect"
+Repository = "https://github.com/sorasful/nordvpn-connect"
+Issues = "https://github.com/sorasful/nordvpn-connect/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "ruff>=0.7.0",
+]

@@ -44,4 +44,3 @@ rotate_VPN(settings)  # actually connect to server
 close_vpn_connection(settings)
 
 ````
-

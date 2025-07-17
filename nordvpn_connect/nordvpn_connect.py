@@ -139,7 +139,7 @@ def start_vpn_windows():
     return cwd_path
 
 
-def rotate_VPN(parameters: dict):
+def rotate_vpn(parameters: dict):
     opsys = parameters['platform']
     command = parameters['command']
     server_to_connect_to = parameters["server_to_connect_to"]

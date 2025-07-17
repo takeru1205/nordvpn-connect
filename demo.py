@@ -1,4 +1,4 @@
-from nordvpn_connect import initialize_vpn, rotate_VPN, close_vpn_connection
+from nordvpn_connect import initialize_vpn, rotate_vpn, close_vpn_connection
 
 destination = "italy"
 
@@ -6,7 +6,7 @@ nordvpn_username = ""
 nordvpn_password = ""
 
 settings = initialize_vpn(destination)
-rotate_VPN(settings)
+rotate_vpn(settings)
 
 # YOUR STUFF
 
